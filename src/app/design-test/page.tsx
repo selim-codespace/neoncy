@@ -1,4 +1,4 @@
-import TechStackGrid from "@/components/TechStackGrid";
+import TechStackGrid from "@/components/tech-stack-grid/tech-stack-grid";
 
 export default function DesignTestPage() {
     return (

@@ -224,10 +224,10 @@ const TechStackGrid = () => {
                         />
 
                         {/* Arrows Overlay - White, crisp */}
-                        <path d="M 190 85 L 210 100 L 190 115" stroke="white" strokeWidth="4" fill="none" transform="rotate(-20 210 100)" />
-                        <path d="M 390 215 L 410 200 L 390 185" stroke="white" strokeWidth="4" fill="none" transform="rotate(-20 410 200)" />
-                        <path d="M 390 85 L 410 100 L 390 115" stroke="white" strokeWidth="4" fill="none" transform="rotate(20 410 100) translate(0 0)" />
-                        <path d="M 190 215 L 210 200 L 190 185" stroke="white" strokeWidth="4" fill="none" transform="rotate(20 210 200)" />
+                        <path d="M 190 85 L 210 100 L 190 115" stroke="black" strokeWidth="3" fill="none" transform="rotate(10 310 100)" />
+                        <path d="M 390 215 L 410 200 L 390 185" stroke="black" strokeWidth="3" fill="none" transform="rotate(10 320 100)" />
+                        <path d="M 390 85 L 410 100 L 390 115" stroke="black" strokeWidth="3" fill="none" transform="rotate(-10 300 100) translate(0 0)" />
+                        <path d="M 190 215 L 210 200 L 190 185" stroke="black" strokeWidth="3" fill="none" transform="rotate(-10 320 200)" />
 
                     </svg>
                 </div>

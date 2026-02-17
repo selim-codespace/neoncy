@@ -8,6 +8,6 @@ test("renders animated devops infinity scene", async ({ page }) => {
   });
 
   await expect(scene).toBeVisible();
-  await expect(scene.locator("line")).toHaveCount(8);
-  await expect(scene.locator("animate")).toHaveCount(1);
+  await expect(scene.locator("#infinity-path")).toHaveCount(1);
+  await expect(scene.locator("animateMotion")).toHaveCount(4);
 });

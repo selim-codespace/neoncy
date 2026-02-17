@@ -22,105 +22,13 @@ body {
   min-height: 100vh;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  font-family:
+    var(--font-geist-sans),
+    system-ui,
+    -apple-system,
+    sans-serif;
 }
 
 a {
   color: inherit;
-}
-
-/* ─── DevOps Infinity Scene Animations ─────────────────────────────── */
-
-/* Core loop pulse — subtle glow breathe */
-.devops-infinity-core {
-  animation: devopsLoopPulse 4s ease-in-out infinite;
-}
-
-/* Icon float — soft hovering bob */
-.devops-icon-float {
-  animation: devopsIconFloat 6s ease-in-out infinite;
-  transform-box: fill-box;
-  transform-origin: center;
-}
-
-/* Staggered animation delays for each icon position */
-.devops-icon-float-1 {
-  animation-delay: -0.4s;
-}
-
-.devops-icon-float-2 {
-  animation-delay: -1.2s;
-}
-
-.devops-icon-float-3 {
-  animation-delay: -2.0s;
-}
-
-.devops-icon-float-4 {
-  animation-delay: -0.8s;
-}
-
-.devops-icon-float-5 {
-  animation-delay: -1.6s;
-}
-
-.devops-icon-float-6 {
-  animation-delay: -2.5s;
-}
-
-.devops-icon-float-7 {
-  animation-delay: -3.2s;
-}
-
-.devops-icon-float-8 {
-  animation-delay: -3.9s;
-}
-
-@keyframes devopsLoopPulse {
-
-  0%,
-  100% {
-    filter: drop-shadow(0 0 14px rgba(85, 140, 255, 0.25));
-  }
-
-  50% {
-    filter: drop-shadow(0 0 22px rgba(112, 210, 255, 0.42));
-  }
-}
-
-@keyframes devopsIconFloat {
-
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-3px);
-  }
-}
-
-/* Accessibility: respect reduced motion preferences */
-@media (prefers-reduced-motion: reduce) {
-
-  .devops-infinity-core,
-  .devops-icon-float {
-    animation: none;
-  }
-}
-
-.animate-pulse-slow {
-  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@keyframes pulse {
-
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: .5;
-  }
 }

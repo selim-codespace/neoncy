@@ -1,4 +1,3 @@
-import React from "react";
 
 export const GitLabLogo = () => (
     <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">

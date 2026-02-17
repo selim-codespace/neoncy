@@ -1,4 +1,3 @@
-"use client";
 
 import { Rocket, Leaf, RefreshCw } from "lucide-react";
 import { JewelHexagon } from "./jewel-hexagon";

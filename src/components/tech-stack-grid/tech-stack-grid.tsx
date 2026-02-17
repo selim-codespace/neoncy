@@ -88,7 +88,7 @@ const TechStackGrid = () => {
 
                 {/* Infinity Loop Overlay */}
                 {/* Used distinct segments with gradients to match the "3D" feel */}
-                <div className="absolute top-[5%] -left-[12%] pointer-events-none flex items-center justify-center z-0 scale-60">
+                <div className="absolute top-[5%] -left-[13%] pointer-events-none flex items-center justify-center z-0 scale-65">
                     <svg
                         width="600"
                         height="300"
